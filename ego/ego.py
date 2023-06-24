@@ -34,7 +34,6 @@ E = readCsv("nlp_output/entityDict.csv")
 
 class_list=["公司", "國家（地區）", "組織", "火箭", "衛星", "術語"]
 E_list = ["com","loc","org","rocket","satellite","term"]
-# colour = ["#fffb3", "#fdb462", "#bfbbda", "#80b1d3", "#fb8072", "#8dd2c6"] # single colour , double colours, trible colours
 colour = ["#EFFFA8", "#79B2DB", "#C1B5C5", "#FFB86B", "#FF7666", "#7FFFD4"]
 
 # add an Mandarin label in dictionary
@@ -66,8 +65,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    # st.markdown('<p class="big-font">RWEPA | Python - </p>', unsafe_allow_html=True)
-    # st.markdown('<p class="big-font">Hello Streamlit!</p>', unsafe_allow_html=True)
     st.markdown('<p class="color-font">以特定主題為中心，從文集中選出相關性最高的關鍵詞，並對它們進行社會網絡分析</p>', unsafe_allow_html=True)
     # Add a slider to the sidebar:
     Z_class = st.selectbox(
@@ -178,9 +175,6 @@ def matrix_to_xy(df, columns=None, reset_index=False):
 x = matrix_to_xy(x, reset_index=True)
 x = x[x["val"] > 0]
 links = x[x["val"] >= Q]
-
-# links['val'] = links['val'].apply(np.sqrt)
-# links["id"] = links["from"].astype(str) + "-" + links["to"].astype(str)
 
 net = Network()
 
