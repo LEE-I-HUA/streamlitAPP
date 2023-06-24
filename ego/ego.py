@@ -20,15 +20,15 @@ def readCsv(path):
     return data
 
 
-DocCO = readCsv("data/nlp_output0608_2/nlp_output/DocCO.csv")
-DocCR = readCsv("data/nlp_output0608_2/nlp_output/DocCR.csv")
-SenCO = readCsv("data/nlp_output0608_2/nlp_output/SenCO.csv")
-SenCR = readCsv("data/nlp_output0608_2/nlp_output/SenCR.csv")
-E = readCsv("data/nlp_output0608_2/nlp_output/entityDict.csv")
-S = readCsv("data/nlp_output0608_2/nlp_output/sen_raw_data.csv")
-D = readCsv("data/nlp_output0608_2/nlp_output/doc_raw_data.csv")
-SenDTM = readCsv("data/nlp_output0608_2/nlp_output/SenDTM.csv")
-DocDTM = readCsv("data/nlp_output0608_2/nlp_output/DocDTM.csv")
+DocCO = readCsv("nlp_output/DocCO.csv")
+DocCR = readCsv("nlp_output/DocCR.csv")
+SenCO = readCsv("nlp_output/SenCO.csv")
+SenCR = readCsv("nlp_output/SenCR.csv")
+E = readCsv("nlp_output/entityDict.csv")
+S = readCsv("nlp_output/sen_raw_data.csv")
+D = readCsv("nlp_output/doc_raw_data.csv")
+SenDTM = readCsv("nlp_output/SenDTM.csv")
+DocDTM = readCsv("nlp_output/DocDTM.csv")
 
 
 
