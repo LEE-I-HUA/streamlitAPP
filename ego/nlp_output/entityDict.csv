@@ -1,0 +1,570 @@
+keywords,label,word_label_count,freq
+3D printing,term,116.0,117
+5G,term,679.0,679
+ABL,com,106.0,116
+ABS,org,38.0,108
+AEHF,satellite,122.0,138
+AFRL,org,225.0,225
+AI,term,307.0,307
+ASAT,term,99.0,141
+ASI,org,70.0,109
+AST,org,139.0,160
+AST SpaceMobile,com,150.0,152
+AWS,com,75.0,140
+Aerojet,com,203.0,203
+Aerojet Rocketdyne,com,350.0,350
+Aerospace Corp.,com,93.0,133
+Africa,loc,355.0,355
+Air Force,org,6427.0,6428
+Air Force Research Laboratory,org,189.0,189
+Air Force Space Command,org,346.0,346
+Air Force Space and Missile Systems Center,org,211.0,211
+Airbus,com,876.0,882
+Airbus Defence and Space,com,295.0,310
+Aireon,com,151.0,153
+Alabama,loc,157.0,157
+Alaska,loc,245.0,245
+Alpha,satellite,88.0,182
+Amazon,com,457.0,465
+America,loc,519.0,519
+American,loc,1193.0,1198
+Americans,loc,172.0,173
+Americas,loc,138.0,142
+Antares,rocket,110.0,188
+Apollo,satellite,68.0,329
+Apple,com,116.0,116
+Arctic,loc,190.0,193
+Ariane 5,rocket,515.0,680
+Ariane 6,rocket,296.0,622
+ArianeGroup,com,222.0,222
+Arianespace,com,1197.0,1201
+Army,org,521.0,521
+Artemis,term,325.0,739
+Artemis 1,satellite,125.0,188
+Asia,loc,178.0,179
+Asia-Pacific,loc,127.0,132
+AsiaSat,satellite,14.0,146
+Astra,com,576.0,592
+Astranis,com,211.0,220
+Astrobotic,com,260.0,268
+Astrocast,com,125.0,132
+Astroscale,com,362.0,363
+Atlantic Ocean,loc,126.0,126
+Atlas,rocket,40.0,130
+Atlas 5,rocket,658.0,750
+Australia,loc,487.0,487
+Australian,loc,259.0,259
+Avanti,com,172.0,173
+Avio,com,314.0,315
+Axiom,com,296.0,307
+Axiom Space,com,240.0,243
+BE-4,satellite,181.0,219
+Baikonur Cosmodrome,term,4.0,101
+Ball Aerospace,com,144.0,144
+Beijing,loc,159.0,159
+Bezos,com,140.0,140
+Biden,com,17.0,145
+Biden administration,org,114.0,116
+BlackSky,com,372.0,442
+Blackjack,satellite,279.0,280
+Blue Canyon Technologies,com,114.0,114
+Blue Origin,com,2113.0,2113
+Boca Chica,loc,113.0,132
+Boeing,com,2479.0,2479
+Brazil,loc,235.0,235
+Bridenstine,com,443.0,515
+British,loc,715.0,719
+C-Band Alliance,org,178.0,247
+C-band,term,657.0,670
+CALT,org,90.0,109
+CAPSTONE,term,14.0,135
+CASC,org,562.0,581
+CASIC,org,63.0,158
+CASIS,org,127.0,128
+CLPS,term,164.0,207
+CNES,org,231.0,232
+COVID,term,90.0,102
+COVID-19,term,256.0,315
+CSF,org,101.0,106
+CST-100 Starliner,satellite,183.0,183
+California,loc,1246.0,1246
+Canada,loc,675.0,675
+Canadian,loc,766.0,766
+Canadian Space Agency,org,111.0,111
+Cape Canaveral,loc,506.0,506
+Cape Canaveral Air Force Station,loc,144.0,148
+Cape Canaveral Space Force Station,loc,108.0,113
+Capella,com,224.0,230
+Capella Space,com,181.0,181
+Capitol Hill,loc,123.0,221
+Center for Strategic and International Studies,org,110.0,110
+Chang e-5,satellite,160.0,160
+China,loc,4624.0,4624
+China Aerospace Science and Technology Corporation,org,100.0,105
+China s,loc,203.0,204
+Chinese,loc,1993.0,1998
+Colorado,loc,437.0,437
+Colorado Springs,loc,222.0,222
+Commerce,org,155.0,162
+Commerce Department,org,327.0,327
+Commercial Lunar Payload Services,term,101.0,101
+Commercial Spaceflight Federation,org,100.0,100
+Congress,org,2687.0,2687
+Copernicus,satellite,78.0,159
+Crew Dragon,satellite,625.0,772
+Cygnus,satellite,328.0,345
+D-Orbit,com,132.0,152
+DARPA,org,944.0,944
+DART,org,25.0,128
+DIU,term,22.0,204
+DLR,org,164.0,167
+Defense Advanced Research Projects Agency,org,225.0,225
+Defense Department,org,962.0,962
+Delta 4,rocket,93.0,124
+Delta 4 Heavy,rocket,150.0,168
+Democrats,term,85.0,119
+Department of Commerce,org,121.0,121
+Department of Defense,org,382.0,382
+Department of the Air Force,org,154.0,154
+DigitalGlobe,com,311.0,313
+DoD,org,2586.0,2590
+Dragon,satellite,495.0,542
+Draper,com,118.0,119
+Dream Chaser,satellite,233.0,259
+Dynetics,com,206.0,206
+EELV,com,23.0,112
+EM-1,satellite,70.0,103
+ESA,org,2242.0,2243
+EU,org,296.0,296
+Earth,loc,1680.0,1709
+Earth observation,term,128.0,138
+Earth orbit,term,194.0,194
+Earth s,loc,139.0,140
+Earth science,term,146.0,146
+Eastern,term,23.0,471
+Eastern Range,loc,100.0,104
+EchoStar,com,294.0,299
+Electron,satellite,596.0,873
+Elon Musk,com,145.0,146
+Euroconsult,com,137.0,154
+Europa,satellite,93.0,195
+Europa Clipper,satellite,269.0,270
+Europe,loc,1412.0,1412
+European,loc,1235.0,1244
+European Commission,org,236.0,236
+European Space Agency,org,873.0,873
+European Union,org,292.0,294
+Eutelsat,com,1176.0,1188
+Exolaunch,com,155.0,155
+Expace,com,104.0,104
+FAA,org,1172.0,1172
+FCC,org,1833.0,1833
+Falcon 9,rocket,2268.0,2418
+Falcon Heavy,rocket,799.0,803
+Federal Aviation Administration,org,379.0,379
+Federal Communications Commission,org,458.0,458
+Firefly,com,355.0,369
+Firefly Aerospace,com,167.0,167
+Fla.,loc,215.0,215
+Florida,loc,997.0,997
+France,loc,415.0,415
+French,loc,523.0,528
+French Guiana,loc,332.0,332
+GAO,org,488.0,488
+GBSD,term,58.0,105
+GEO,term,726.0,1005
+GHGSat,satellite,37.0,101
+GNSS,term,108.0,115
+GPS,term,1378.0,1379
+GPS 3,term,212.0,242
+Galactic Energy,com,146.0,146
+Galileo,satellite,166.0,394
+Gateway,term,264.0,398
+General Atomics,com,146.0,146
+German,loc,328.0,330
+Germany,loc,424.0,424
+Global Eagle,com,188.0,202
+Global Positioning System,term,105.0,117
+Globalstar,com,293.0,316
+Gogo,com,212.0,213
+Google,com,303.0,361
+Government Accountability Office,org,191.0,191
+Griffin,com,86.0,112
+HASC,org,120.0,124
+HLS,term,140.0,240
+Harris,com,166.0,168
+Hawaii,loc,134.0,134
+HawkEye 360,com,129.0,230
+Hispasat,com,184.0,191
+House,org,778.0,780
+House Armed Services Committee,org,195.0,195
+House Science Committee,org,183.0,183
+House and Senate,org,105.0,105
+Houston,loc,110.0,113
+How,term,80.0,100
+Hubble,satellite,163.0,170
+Hughes,com,212.0,217
+Hughes Network Systems,com,113.0,115
+Human Landing System,satellite,1.0,151
+IAC,org,86.0,103
+IAI,org,87.0,157
+ILS,com,104.0,137
+ISRO,org,354.0,354
+ISS,org,1740.0,2388
+ITU,org,163.0,164
+Iceye,com,421.0,444
+InSight,satellite,123.0,137
+India,loc,727.0,727
+Indian,loc,406.0,407
+Indonesia,loc,125.0,125
+Ingenuity,com,107.0,133
+Inmarsat,com,1080.0,1082
+Intelsat,com,1745.0,1758
+International Astronautical Congress,org,54.0,128
+International Space Station,satellite,66.0,1599
+Internet of Things,term,216.0,216
+Intuitive Machines,term,20.0,220
+IoT,term,293.0,293
+Iran,loc,130.0,130
+Iridium,com,760.0,841
+Iridium Next,satellite,219.0,262
+Isar Aerospace,com,102.0,102
+Israel,loc,178.0,178
+Israeli,loc,189.0,189
+Italian,loc,245.0,247
+Italy,loc,288.0,288
+JAXA,org,280.0,348
+JPL,org,296.0,309
+JPSS,satellite,88.0,119
+JWST,satellite,342.0,459
+James Webb Space Telescope,satellite,197.0,243
+Japan,loc,701.0,701
+Japanese,loc,657.0,657
+Jet Propulsion Laboratory,org,146.0,148
+Jiuquan,loc,132.0,177
+Johnson Space Center,org,104.0,104
+Joint Chiefs of Staff,org,114.0,114
+Jupiter,loc,196.0,216
+KSAT,com,126.0,133
+KSC,org,114.0,161
+Ka-band,term,418.0,429
+Kazakhstan,loc,131.0,131
+Kennedy Space Center,org,364.0,534
+Kepler,com,257.0,341
+Ku-band,term,268.0,278
+Kuaizhou-1A,satellite,100.0,102
+Kymeta,com,202.0,203
+L-band,term,164.0,168
+L3Harris,com,326.0,326
+LEO,term,940.0,1796
+LSA,org,57.0,154
+Landspace,com,176.0,234
+LauncherOne,satellite,204.0,373
+LeoLabs,com,306.0,306
+LeoSat,com,213.0,229
+Ligado,com,162.0,178
+Lightspeed,term,11.0,110
+Lockheed,com,254.0,254
+Lockheed Martin,com,1538.0,1538
+Loft Orbital,com,143.0,144
+Long March 3B,satellite,36.0,109
+Long March 5,rocket,132.0,202
+Long March 5B,satellite,76.0,194
+Los Angeles,loc,185.0,189
+Luxembourg,loc,352.0,352
+Lynk,com,112.0,118
+MDA,org,456.0,482
+MEO,term,119.0,184
+MHI,com,49.0,103
+Made In Space,com,87.0,113
+Mars,loc,2505.0,2702
+Mars 2020,term,174.0,225
+Martian,loc,206.0,214
+Maxar,com,1097.0,1097
+Maxar Technologies,com,371.0,371
+Microsoft,com,214.0,214
+Middle East,loc,260.0,260
+Missile Defense Agency,org,178.0,178
+Mojave,loc,99.0,102
+Mojave Air and Space Port,loc,72.0,105
+Momentus,com,581.0,598
+Moon,loc,258.0,269
+Moon Express,com,133.0,143
+Musk,com,488.0,488
+Mynaric,com,130.0,130
+NASA,org,22514.0,22514
+NASA Headquarters,org,142.0,142
+NATO,org,109.0,109
+NC3,term,94.0,107
+NDAA,term,157.0,382
+NGA,org,384.0,384
+NGSO,term,116.0,183
+NOAA,org,1352.0,1352
+NRO,org,810.0,810
+NSF,org,152.0,152
+NSSL,org,208.0,254
+NanoAvionics,com,181.0,185
+NanoRacks,com,131.0,140
+Nanoracks,loc,1.0,121
+National Academies,org,171.0,172
+National Defense Authorization Act,term,319.0,319
+National Oceanic and Atmospheric Administration,org,296.0,296
+National Reconnaissance Office,org,424.0,424
+National Space Council,org,591.0,591
+Navy,org,241.0,241
+Nelson,com,117.0,156
+Netherlands,loc,100.0,100
+Neutron,satellite,76.0,117
+New Glenn,satellite,214.0,382
+New Mexico,loc,362.0,362
+New Shepard,rocket,67.0,430
+New Zealand,loc,503.0,503
+NewSpace,term,91.0,124
+No,term,101.0,105
+North America,loc,178.0,179
+North Korea,loc,146.0,146
+Northrop,com,228.0,228
+Northrop Grumman,com,1574.0,1574
+Norway,loc,120.0,120
+Not,term,107.0,107
+O3b,com,46.0,163
+OCX,com,31.0,127
+OHB,term,4.0,204
+OPIR,term,80.0,121
+Office of Space Commerce,org,226.0,226
+OmegA,com,72.0,151
+OneSpace,com,114.0,114
+OneWeb,com,2558.0,2822
+OneWeb Satellites,satellite,27.0,103
+Orbcomm,com,152.0,152
+Orbex,com,131.0,131
+Orbit Fab,com,164.0,165
+Orbital ATK,com,614.0,614
+Orion,term,65.0,980
+Outer Space Treaty,term,141.0,141
+Ovzon,com,108.0,116
+PLD Space,com,111.0,113
+PSLV,rocket,95.0,179
+Pacific Ocean,loc,102.0,102
+Pence,term,111.0,136
+Pentagon,org,2000.0,2047
+Perseverance,com,46.0,134
+Photon,com,24.0,112
+Planet,com,996.0,1004
+Proton,rocket,162.0,317
+Psyche,com,25.0,128
+RF,term,153.0,154
+RSGS,term,79.0,179
+Raytheon,com,377.0,377
+Redwire,com,240.0,241
+Relativity,com,260.0,275
+Relativity Space,com,137.0,139
+Republican,loc,14.0,120
+Rocket Lab,com,1636.0,1636
+Roscosmos,com,766.0,841
+Russia,loc,2325.0,2325
+Russian,loc,1805.0,1808
+Russians,loc,119.0,119
+S-band,term,107.0,113
+SAR,term,573.0,593
+SBIR,org,41.0,149
+SBIRS,term,69.0,268
+SDA,org,1592.0,1602
+SES,com,1530.0,1542
+SLS,satellite,1142.0,1482
+SMC,org,633.0,639
+SNC,org,8.0,178
+SOFIA,org,133.0,237
+SPAC,com,197.0,555
+SPACs,term,161.0,214
+SSA,term,96.0,354
+SSC,org,99.0,105
+SSL,com,379.0,415
+SSO,term,98.0,110
+SSTL,com,110.0,140
+STM,term,113.0,257
+San Francisco,loc,100.0,102
+Satellogic,com,228.0,232
+Saturn,com,69.0,147
+Scotland,loc,101.0,101
+Secure World Foundation,org,128.0,128
+Securities and Exchange Commission,org,122.0,122
+Senate,org,1220.0,1221
+Senate Armed Services Committee,org,169.0,169
+Senate Commerce Committee,org,179.0,179
+Shanahan,com,108.0,110
+Sierra Space,com,177.0,179
+Silicon Valley,loc,190.0,191
+Smith,com,99.0,108
+SoftBank,com,136.0,136
+South Korea,loc,441.0,441
+Soviet Union,loc,104.0,105
+Soyuz,rocket,310.0,1153
+SpEC,org,84.0,111
+Space,term,181.0,202
+Space Adventures,com,97.0,101
+Space Command,org,816.0,816
+Space Corps,org,179.0,182
+Space Development Agency,org,677.0,677
+Space Force,org,5450.0,5463
+Space Foundation,org,113.0,113
+Space Launch System,rocket,536.0,553
+Space Systems Command,org,315.0,315
+Space Systems Loral,com,181.0,181
+Space and Missile Systems Center,org,224.0,224
+SpaceIL,org,20.0,139
+SpaceLink,satellite,9.0,100
+SpaceNews,org,473.0,849
+SpaceNews magazine,org,622.0,622
+SpaceShipTwo,satellite,362.0,397
+SpaceX,com,9694.0,9694
+SpaceX.,com,289.0,289
+Spacecom,org,37.0,231
+Spaceflight,com,233.0,329
+Spaceport America,loc,166.0,168
+Spain,loc,199.0,199
+Spanish,loc,166.0,167
+Speedcast,com,196.0,199
+Spire,com,546.0,577
+Spire Global,com,127.0,135
+Starliner,satellite,401.0,404
+Starlink,satellite,1493.0,1990
+Starship,rocket,18.0,859
+State Department,org,106.0,106
+Strategic Command,org,138.0,138
+Stratolaunch,com,201.0,213
+Swarm,com,141.0,187
+TAMPA,loc,190.0,190
+TESS,satellite,109.0,110
+Telesat,com,1095.0,1101
+Telesat LEO,com,33.0,110
+Telespazio,com,106.0,106
+Terran 1,satellite,70.0,134
+Terran Orbital,com,208.0,208
+Texas,loc,433.0,434
+Thales Alenia Space,com,641.0,642
+That,term,138.0,139
+Thompson,com,100.0,103
+Thuraya,satellite,4.0,155
+Tiangong,satellite,104.0,166
+Tianhe,com,65.0,196
+Transport Layer,term,106.0,108
+Trump,term,312.0,384
+Trump administration,org,412.0,418
+U.K.,loc,943.0,943
+U.S.,loc,10012.0,10018
+U.S. Air Force,org,250.0,250
+U.S. Space Command,org,214.0,214
+U.S. Space Force,org,279.0,279
+U.S.-based,loc,182.0,182
+UAE,loc,183.0,183
+UK,loc,276.0,276
+ULA,com,1519.0,1527
+US,loc,101.0,101
+Ukraine,loc,908.0,908
+Ukrainian,loc,177.0,177
+Umbra,com,117.0,119
+United Arab Emirates,loc,130.0,130
+United Kingdom,loc,367.0,367
+United Launch Alliance,com,829.0,829
+United Nations,org,120.0,121
+United States,loc,2954.0,2956
+VIPER,term,32.0,105
+Vandenberg,loc,163.0,173
+Vandenberg Air Force Base,loc,260.0,265
+Vandenberg Space Force Base,loc,98.0,104
+Vector,com,234.0,245
+Vega,rocket,200.0,547
+Vega C,rocket,115.0,346
+Venus,loc,90.0,135
+ViaSat,com,170.0,173
+ViaSat-3,satellite,227.0,240
+Viasat,com,1091.0,1098
+Vigoride,satellite,105.0,133
+Virgin Galactic,com,928.0,928
+Virgin Orbit,com,1037.0,1069
+Virginia,loc,244.0,244
+Voyager,com,128.0,150
+Vulcan,rocket,176.0,610
+Vulcan Centaur,satellite,98.0,212
+WASHINGTON,loc,874.0,878
+WFIRST,term,97.0,249
+WGS,satellite,80.0,217
+Washington,loc,271.0,272
+We,loc,53.0,330
+Wenchang,loc,160.0,178
+White House,org,945.0,952
+Wi-Fi,term,136.0,136
+Wilson,com,133.0,140
+World View,com,116.0,120
+WorldView Legion,satellite,43.0,112
+Yahsat,com,168.0,185
+York,com,158.0,167
+York Space Systems,com,114.0,114
+additive manufacturing,term,119.0,119
+agency,org,176.0,176
+altitude,term,109.0,109
+artificial intelligence,term,264.0,264
+budget,term,442.0,442
+climate change,term,104.0,104
+commercial,term,244.0,266
+commercial space,term,121.0,125
+cost,term,1785.0,1785
+costs,term,482.0,482
+cubesats,satellite,71.0,135
+cybersecurity,term,127.0,127
+electric propulsion,term,171.0,173
+engine,term,170.0,170
+engines,term,103.0,103
+expensive,term,138.0,140
+funding,term,158.0,158
+geostationary,satellite,126.0,166
+geostationary orbit,term,498.0,498
+geostationary satellites,term,114.0,119
+geostationary transfer orbit,term,160.0,160
+geosynchronous orbit,term,144.0,144
+government,org,573.0,576
+iSpace,org,5.0,224
+imagery,term,111.0,111
+in,satellite,16.0,128
+international,loc,88.0,111
+ispace,org,20.0,113
+launch,term,176.0,190
+launch vehicle,rocket,57.0,102
+liquid oxygen,term,154.0,158
+low Earth orbit,term,2453.0,2456
+low-Earth orbit,term,258.0,258
+lunar orbit,term,134.0,134
+machine learning,term,130.0,130
+medium Earth orbit,term,162.0,162
+microgravity,term,141.0,141
+military,org,139.0,243
+money,term,136.0,136
+national security,term,555.0,555
+orbit,term,349.0,349
+orbital debris,term,131.0,131
+pandemic,term,123.0,123
+price,term,211.0,211
+propulsion,term,118.0,121
+radar,term,232.0,238
+regulatory,term,155.0,155
+remote sensing,term,136.0,137
+risk,term,184.0,184
+rocket,term,138.0,286
+satellite,term,212.0,384
+satellite communications,term,153.0,153
+satellite operators,term,84.0,112
+satellites,term,156.0,304
+small satellites,term,93.0,140
+smallsat,satellite,81.0,131
+software,term,195.0,195
+solar system,term,71.0,114
+space,term,402.0,432
+space industry,term,153.0,153
+spacecraft,term,185.0,335
+sun-synchronous orbit,term,197.0,197
+synthetic aperture radar,satellite,7.0,236
+technical,term,196.0,196
+technology,term,431.0,432
+time,term,217.0,218
+weather,term,145.0,146
