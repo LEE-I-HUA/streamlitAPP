@@ -20,11 +20,11 @@ def readCsv(path):
     return data
 
 
-DocCO = readCsv("https://github.com/LEE-I-HUA/streamlitAPP/blob/main/ego/nlp_output/DocCO.csv")
-DocCR = readCsv("https://github.com/LEE-I-HUA/streamlitAPP/blob/main/ego/nlp_output/DocCR.csv")
-SenCO = readCsv("https://github.com/LEE-I-HUA/streamlitAPP/blob/main/ego/nlp_output/SenCO.csv")
-SenCR = readCsv("https://github.com/LEE-I-HUA/streamlitAPP/blob/main/ego/nlp_output/SenCR.csv")
-E = readCsv("https://github.com/LEE-I-HUA/streamlitAPP/blob/main/ego/nlp_output/entityDict.csv")
+DocCO = readCsv("nlp_output/DocCO.csv")
+DocCR = readCsv("nlp_output/DocCR.csv")
+SenCO = readCsv("nlp_output/SenCO.csv")
+SenCR = readCsv("nlp_output/SenCR.csv")
+E = readCsv("nlp_output/entityDict.csv")
 # S = readCsv("nlp_output/sen_raw_data.csv")
 # D = readCsv("nlp_output/doc_raw_data.csv")
 # SenDTM = readCsv("nlp_output/SenDTM.csv")
