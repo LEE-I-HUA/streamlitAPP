@@ -202,8 +202,8 @@ path = os.getcwd().replace('\\','/')
 image = Image.open(f'{path}/legend.png')
 st.image(image)
 
-net.save_graph(f'{path}/test.html')
-HtmlFile = open(f'{path}/test.html','r',encoding='utf-8')
+net.save_graph(f'{path}/node.html')
+HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
 # st.write('data:',a) 
 # st.write('x')    
