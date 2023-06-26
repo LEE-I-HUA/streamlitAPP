@@ -1,0 +1,6 @@
+streamlit
+pandas
+pyvis
+numpy
+Pillow
+python-math
