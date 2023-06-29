@@ -20,11 +20,11 @@ def readCsv(path):
     return data
 
 
-DocCO = readCsv("./nlp_output/DocCO.csv")
-DocCR = readCsv("./nlp_output/DocCR.csv")
-SenCO = readCsv("./nlp_output/SenCO.csv")
-SenCR = readCsv("./nlp_output/SenCR.csv")
-E = readCsv("./nlp_output/entityDict.csv")
+DocCO = readCsv("ego/nlp_output/DocCO.csv")
+DocCR = readCsv("ego/nlp_output/DocCR.csv")
+SenCO = readCsv("ego/nlp_output/SenCO.csv")
+SenCR = readCsv("ego/nlp_output/SenCR.csv")
+E = readCsv("ego/nlp_output/entityDict.csv")
 # S = readCsv("nlp_output/sen_raw_data.csv")
 # D = readCsv("nlp_output/doc_raw_data.csv")
 # SenDTM = readCsv("nlp_output/SenDTM.csv")
