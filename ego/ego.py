@@ -198,7 +198,8 @@ for index, row in links.iterrows():
     net.add_edge(row['from'], row['to'], value=row['val'])
 
 
-path = os.getcwd().replace('\\','/')
+# path = os.getcwd().replace('\\','/')
+path = 'ego'
 image = Image.open(f'{path}/legend.png')
 st.image(image)
 
