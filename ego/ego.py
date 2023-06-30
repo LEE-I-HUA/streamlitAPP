@@ -198,13 +198,21 @@ for index, row in links.iterrows():
     net.add_edge(row['from'], row['to'], value=row['val'])
 
 
+
 # path = os.getcwd().replace('\\','/')
 path = 'ego'
-image = Image.open(f'{path}/legend.png')
-st.image(image)
+# image = Image.open(f'{path}/legend.png')
+# st.image(image)
 
 net.save_graph(f'{path}/node.html')
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
+
+col1, col2= st.columns([8, 1])
+with col1:
+    components.html(HtmlFile.read(), height=660, scrolling=True)
+with col2:
+        for i in colour:
+            annotated_text(i)
 
 # st.write('data:',a) 
 # st.write('x')    
