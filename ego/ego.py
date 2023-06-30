@@ -207,7 +207,7 @@ image = Image.open(f'{path}/legend.png')
 net.save_graph(f'{path}/node.html')
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
-col1, col2= st.columns([8, 1])
+col1, col2= st.columns([7, 3])
 with col1:
     components.html(HtmlFile.read(), height=660, scrolling=True)
 with col2:
