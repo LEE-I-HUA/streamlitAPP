@@ -183,15 +183,18 @@ node_id = pd.unique(pd.concat([links['from'], links['to']])).tolist()
 node_label = []
 node_colour = []
 node_size = []
+node_title = []
 for i in node_id:
     node_label.append(E.loc[i, 'keywords']) 
     node_colour.append(E.loc[i, 'colour']) 
-    node_size.append(math.log(E.loc[i, 'freq'],2)+10) #  
+    node_size.append(math.log(E.loc[i, 'freq'],2)+10)
+    node_title.append(E.loc[i]['keywords']+ '('+ E.loc[i]['label']+ ', '+ str(E.loc[i]['freq'])+ ')')
 
 net.add_nodes(node_id, 
               label= node_label,
               color = node_colour,
-              size = node_size
+              size = node_size,
+              title = node_title
               )
 
 # Add edges to the network
