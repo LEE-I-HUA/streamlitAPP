@@ -174,8 +174,8 @@ def matrix_to_xy(df, columns=None, reset_index=False):
 
 x = matrix_to_xy(x, reset_index=True)
 x = x[x["val"] > 0]
-df_x = pd.DataFrame(x)
-links = x[x["val"] >= round(float(pd.DataFrame(df.quantile(Q)).loc['val']),2)]
+x = pd.DataFrame(x)
+links = x[x["val"] >= round(float(x.quantile(Q).loc['val']),2)]
 
 net = Network()
 
