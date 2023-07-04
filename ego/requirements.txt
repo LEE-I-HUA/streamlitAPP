@@ -4,3 +4,4 @@ pyvis
 numpy
 Pillow
 python-math
+st-annotated-text
