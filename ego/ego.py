@@ -35,7 +35,7 @@ E = readCsv("ego/nlp_output/entityDict.csv")
 
 class_list=["公司", "國家（地區）", "組織", "火箭", "衛星", "術語"]
 E_list = ["com","loc","org","rocket","satellite","term"]
-colour = ["#EFFFA8", "#79B2DB", "#C1B5C5", "#FFB86B", "#FF7666", "#7FFFD4"]
+colour = ["#FFFAA0", "#79B2DB", "#C1B5C5", "#FFB86B", "#FF7666", "#7FFFD4"]
 
 # add an Mandarin label in dictionary
 E["Label"] = E["label"]  
