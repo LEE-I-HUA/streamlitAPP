@@ -218,7 +218,7 @@ for i in range(len(class_list)):
 net.save_graph(f'{path}/node.html')
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
-col1, col2= st.columns([7, 3])
+col1, col2= st.columns([8, 1])
 with col1:
     components.html(HtmlFile.read(), height=660, scrolling=True)
 with col2:
