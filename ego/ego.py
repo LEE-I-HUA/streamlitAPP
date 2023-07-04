@@ -206,7 +206,13 @@ for index, row in links.iterrows():
 
 # path = os.getcwd().replace('\\','/')
 path = 'ego'
-image = Image.open(f'{path}/legend.png')
+# image = Image.open(f'{path}/legend.png')
+legend_list =[]
+for i in range(len(class_list)):
+    legend=[]
+    legend.append(("", "", colour[i]))
+    legend.append(class_list[i])
+    legend_list.append(legend)
 
 
 net.save_graph(f'{path}/node.html')
@@ -216,7 +222,9 @@ col1, col2= st.columns([7, 3])
 with col1:
     components.html(HtmlFile.read(), height=660, scrolling=True)
 with col2:
-    st.image(image)
+    # st.image(image)
+    for i in legend_list:
+            annotated_text(i)
 
 # st.write('data:',a) 
 # st.write('x')    
