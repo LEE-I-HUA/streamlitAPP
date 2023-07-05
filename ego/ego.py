@@ -105,10 +105,6 @@ with st.sidebar:
     # Dump Settings button has no function now, wheras it can show the link which including specific variables
     st.button('Dump Settings')
 
-
-# Initiate PyVis network object
-ego = Network(height='800px', bgcolor='#222222', font_color='white')
-
 # 取出某個詞類的所有關鍵字，並取得其dtm矩陣
 if Unit == '篇':
     v = DocCR[Z].to_frame()
@@ -179,7 +175,8 @@ x = pd.DataFrame(x)
 # 'Q' is a relative value not absolute value
 links = x[x["val"] >= round(float(x.quantile(Q).loc['val']),2)]
 
-net = Network()
+# Initiate PyVis network object
+ego = Network(height='800px', bgcolor='#222222', font_color='white')
 
 node_id = pd.unique(pd.concat([links['from'], links['to']])).tolist()
 node_label = []
@@ -192,7 +189,7 @@ for i in node_id:
     node_size.append(math.log(E.loc[i, 'freq'],2)+10)
     node_title.append(E.loc[i]['keywords']+ '('+ E.loc[i]['label']+ ', '+ str(E.loc[i]['freq'])+ ')')
 
-net.add_nodes(node_id, 
+ego.add_nodes(node_id, 
               label= node_label,
               color = node_colour,
               size = node_size,
@@ -201,7 +198,7 @@ net.add_nodes(node_id,
 
 # Add edges to the network
 for index, row in links.iterrows():
-    net.add_edge(row['from'], row['to'], value=row['val'])
+    ego.add_edge(row['from'], row['to'], value=row['val'])
 
 
 
@@ -215,7 +212,7 @@ for i in range(len(class_list)):
     legend_list.append(legend)
 
 
-net.save_graph(f'{path}/node.html')
+ego.save_graph(f'{path}/node.html')
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
 # seperate page into two part 8 for graph of nodes and 1 for lengends
