@@ -144,7 +144,7 @@ if filter != "不篩選":
 else:
     si = si[0:K]
 
-
+# get corresponding data
 if Cor == '相關係數':
     if Unit == '篇':
         x = DocCR.loc[si][E["keywords"][si]].set_axis(si, axis='columns')
