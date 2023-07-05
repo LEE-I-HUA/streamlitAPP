@@ -160,7 +160,7 @@ else:
         x = SenCO.loc[si][E["keywords"][si]].set_axis(si, axis='columns')
         a = 'SenCO'
 
-pd.DataFrame(x)
+x = pd.DataFrame(x)
 
 def matrix_to_xy(df, columns=None, reset_index=False):
     bool_index = np.triu(np.ones(df.shape), k=1).astype(bool)
