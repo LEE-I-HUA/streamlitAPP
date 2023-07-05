@@ -10,10 +10,10 @@ import streamlit.components.v1 as components
 import pandas as pd
 from pyvis.network import Network
 import numpy as np
-from PIL import Image
 import math
-import os
 from annotated_text import annotated_text
+# import os
+# from PIL import Image
 
 @st.cache_data
 def readCsv(path):
@@ -161,7 +161,7 @@ else:
         a = 'SenCO'
 
 x = pd.DataFrame(x)
-
+# there's no directionality between 'from' and 'to' remove the repeated data and the correlation coefficient corealated the node itself.
 def matrix_to_xy(df, columns=None, reset_index=False):
     bool_index = np.triu(np.ones(df.shape), k=1).astype(bool)
     xy = (
@@ -218,6 +218,7 @@ for i in range(len(class_list)):
 net.save_graph(f'{path}/node.html')
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
+# seperate page into two part 8 for graph of nodes and 1 for lengends
 col1, col2= st.columns([8, 1])
 with col1:
     components.html(HtmlFile.read(), height=660, scrolling=True)
