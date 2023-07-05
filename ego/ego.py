@@ -102,12 +102,9 @@ with st.sidebar:
     index = 1)
 
     st.markdown('<p class="color-font">如果字詞出現頻率較高，可以選擇<span class="emphasize">相關係數</span>來定義連結強度；如果字詞出現頻率較低，可以選擇<span class="emphasize">共同出現次數</span>作為連結強度</p>', unsafe_allow_html=True)
-    
+    # Dump Settings button has no function now, wheras it can show the link which including specific variables
     st.button('Dump Settings')
 
-# st.write('節點數量:', K,' 關聯強度:', Q)
-
-# 'Bins selected: ', Q
 
 # Initiate PyVis network object
 ego = Network(height='800px', bgcolor='#222222', font_color='white')
@@ -117,7 +114,8 @@ if Unit == '篇':
     v = DocCR[Z].to_frame()
 else:
     v = SenCR[Z].to_frame()
-
+    
+# Select keywords with a correlation coefficient greater than zero 
 v = v[v[Z] > 0]
 
 positiveV = list(set(v[Z].tolist()))
@@ -131,8 +129,12 @@ for i in range(0,len(valueIndex)):
     si += valueIndex[i] 
 
 if filter != "不篩選":
+    # the keywords appear should be 'Z', the keyword u have selected or the keywords which Label corresponds the filter u have selected
+    # vv will show whether the keywords is fit the condition above or not
     vv = (E["keywords"][si] == Z) | (E["Label"][si] == filter)
+    # enumerate the keywords fiting in conditions 
     v_loc = [i for i, x in enumerate(vv) if x == 1]
+    # the keywords you get must be equal or less than 'K', the number of nodes show on the graph
     a_f = []
     for i in range(0,len(v_loc)):
         a_f.append(si[v_loc[i]])
@@ -174,6 +176,7 @@ def matrix_to_xy(df, columns=None, reset_index=False):
 x = matrix_to_xy(x, reset_index=True)
 x = x[x["val"] > 0]
 x = pd.DataFrame(x)
+# 'Q' is a relative value not absolute value
 links = x[x["val"] >= round(float(x.quantile(Q).loc['val']),2)]
 
 net = Network()
@@ -204,7 +207,6 @@ for index, row in links.iterrows():
 
 # path = os.getcwd().replace('\\','/')
 path = 'ego'
-# image = Image.open(f'{path}/legend.png')
 legend_list =[]
 for i in range(len(class_list)):
     legend=[]
@@ -220,15 +222,8 @@ col1, col2= st.columns([8, 1])
 with col1:
     components.html(HtmlFile.read(), height=660, scrolling=True)
 with col2:
-    # st.image(image)
     for i in legend_list:
             annotated_text(i)
-
-# st.write('data:',a) 
-# st.write('x')    
-# st.dataframe(x)
-# st.write('links') 
-# st.dataframe(links)
 
 components.html(HtmlFile.read(),
     height=800, width=960, scrolling=True)
