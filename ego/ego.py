@@ -126,7 +126,6 @@ positiveV.sort(reverse=True)
 valueIndex = []
 for i in range(0, len(positiveV)):
     valueIndex.append(v.index[v[Z] == positiveV[i]].tolist())
-valueIndex
 si = []
 for i in range(0,len(valueIndex)):
     si += valueIndex[i] 
@@ -134,7 +133,6 @@ for i in range(0,len(valueIndex)):
 if filter != "不篩選":
     vv = (E["keywords"][si] == Z) | (E["Label"][si] == filter)
     v_loc = [i for i, x in enumerate(vv) if x == 1]
-    v_loc
     a_f = []
     for i in range(0,len(v_loc)):
         a_f.append(si[v_loc[i]])
