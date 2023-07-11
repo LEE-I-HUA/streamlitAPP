@@ -231,14 +231,15 @@ for i in range(len(class_list)):
     # append these lengends into the legend_list
     legend_list.append(legend)
 
-
+# save the pyvis graph 
 ego.save_graph(f'{path}/node.html')
+# open pyvis graph as HtmlFile 
 HtmlFile = open(f'{path}/node.html','r',encoding='utf-8')
 
 # seperate page into two part 8 for graph of nodes and 1 for lengends
 col1, col2= st.columns([8, 1])
 with col1:
-    # show the graph
+    # show HtmlFile on app
     components.html(HtmlFile.read(), height=660, scrolling=True)
 with col2:
     # show the legend of graph
